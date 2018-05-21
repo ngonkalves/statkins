@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
 export class ConfigService {
     private readonly _INSTANCE_ID: string;
     
-    readonly _configuration:string = "DEV";
-//    readonly _configuration:string = "STAGING";
+//    readonly _configuration:string = "DEV";
+    readonly _configuration:string = "STAGING";
 //    readonly _configuration:string = "LIVE";
     
     readonly appName = 'Statkins';
